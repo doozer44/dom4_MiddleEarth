@@ -1,7 +1,6 @@
 #modname "Mordor"
 #description "The nation of Mordor"
-#version 1.01
---added Witch King as temporary starting army commander to show stats. Added Nazgul as temporary PD commander to show stats
+#version 0.9
 
 #newmonster 
 #copystats 1390
