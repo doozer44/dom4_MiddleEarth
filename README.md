@@ -11,7 +11,10 @@ todo:
     ii) Add Mouth of Sauron
     iii) Add Orc commander
     iv) #armor 2 --shield for orc swordsman
+    v) remove stealth and add pillage to orcs
+    vi) taskmaster for orc commanders, drop slave morale to compensate
   b) PD
     i) replace Nazgul with Orc commander
   c) Scales and sites for Mordor capital
-2) Other nations
+2) Integration of mordor.dm with MiddleEarth.map
+3) Other nations
