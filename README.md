@@ -1,5 +1,5 @@
-# dom4_MiddleEarth
-MiddleEarth mod pack for Dominions4
+# dom4_lotr
+Lord of the Rings mod pack for Dominions4
 
 done:
 1) Map connections and terrain
