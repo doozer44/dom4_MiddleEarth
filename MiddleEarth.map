@@ -1,0 +1,961 @@
+-- 
+-- Map file for Dominions 4
+-- 
+-- Illwinter Game Design
+-- www.illwinter.com
+-- 
+
+-- Title and image file
+#dom2title A map based on War of the Rings map.
+#imagefile MiddleEarth.tga
+#domversion 350
+#description "Middle Earth"
+
+#scenerio
+#allowedplayer 33
+allowedplayer 43
+#allowedplayer 39
+allowedplayer 45
+allowedplayer 34
+#allowedplayer 54
+#allowedplayer 40
+#allowedplayer 42
+allowedplayer 50
+#allowedplayer 37
+#allowedplayer 38
+#allowedplayer 44
+#nohomelandnames
+
+-- Province names/terrains
+#landname 1 "Umbar"
+#terrain 1 2
+#landname 2 "Near Harad"
+#terrain 2 8
+#landname 3 "The Ocean"
+#terrain 3 2565
+#landname 4 "Far Harad"
+#terrain 4 2
+#landname 5 "West Harondor"
+#terrain 5 64
+#landname 6 "East Harondor"
+#terrain 6 64
+#landname 7 "Haradwaith"
+#terrain 7 64
+#landname 8 "Pelegir"
+#terrain 8 2
+#landname 9 "Gorgoroth"
+#terrain 9 64
+#landname 10 "Nurn"
+#terrain 10 266
+#landname 11 "Osgiliath"
+#terrain 11 8
+#landname 12 "South Ithilien"
+#terrain 12 8
+#landname 13 "Dol Amroth"
+#terrain 13 2
+#landname 14 "Andrast"
+#terrain 14 0
+#landname 15 "Lossarnach"
+#terrain 15 4194304
+#landname 16 "Anfalas"
+#terrain 16 0
+#landname 17 "Lamedon"
+#terrain 17 4194304
+#landname 18 "Erech"
+#terrain 18 4194304
+#landname 19 "Minas Morgul"
+#terrain 19 4194306
+#landname 20 "Minas Tirith"
+#terrain 20 2
+#landname 21 "Mount Doom"
+#terrain 21 16
+#landname 22 "Oruwaith Laur"
+#terrain 22 0
+#landname 23 "Druadan Forest"
+#terrain 23 136
+#landname 24 "North Ithilien"
+#terrain 24 8
+#landname 25 "Edoras"
+#terrain 25 2
+#landname 26 "Morannon"
+#terrain 26 4194306
+#landname 27 "Barad Dur"
+#terrain 27 4194306
+#landname 28 "Helms Deep"
+#terrain 28 2
+#landname 29 "Fords of Isen"
+#terrain 29 8
+#landname 30 "Dead Marshes"
+#terrain 30 96
+#landname 31 "Folde"
+#terrain 31 0
+#landname 32 "Westemnet"
+#terrain 32 0
+#landname 33 "Dagorlad"
+#terrain 33 64
+#landname 34 "Enedwaith"
+#terrain 34 0
+#landname 35 "Gap of Rohan"
+#terrain 35 0
+#landname 36 "Khand"
+#terrain 36 0
+#landname 37 "Ash Mountains"
+#terrain 37 4194368
+#landname 38 "Isengard"
+#terrain 38 4194306
+#landname 39 "Western Emyn Muir"
+#terrain 39 16
+#landname 40 "Eastemnet"
+#terrain 40 0
+#landname 41 "Eastern Emyn Muir"
+#terrain 41 16
+#landname 42 "South Rhun"
+#terrain 42 0
+#landname 43 "Fangorn"
+#terrain 43 128
+#landname 44 "Nomanlands"
+#terrain 44 64
+#landname 45 "South Dunland"
+#terrain 45 128
+#landname 46 "Western Brown Lands"
+#terrain 46 0
+#landname 47 "Southern Dorwinion"
+#terrain 47 4194312
+#landname 48 "Tharbad"
+#terrain 48 8
+#landname 49 "Eastern Brown Lands"
+#terrain 49 0
+#landname 50 "Darth Celebrant"
+#terrain 50 4194312
+#landname 51 "Minhiriath"
+#terrain 51 64
+#landname 52 "North Dunland"
+#terrain 52 0
+#landname 53 "Southern Mirkwood"
+#terrain 53 128
+#landname 54 "Dol Guldor"
+#terrain 54 130
+#landname 55 "South Anduin Vale"
+#terrain 55 8
+#landname 56 "Southern Rhovanion"
+#terrain 56 0
+#landname 57 "Lothlorien"
+#terrain 57 128
+#landname 58 "Harlindon"
+#terrain 58 0
+#landname 59 "Northern Dorwinion"
+#terrain 59 264
+#landname 60 "Hollin"
+#terrain 60 8
+#landname 61 "Cardolan"
+#terrain 61 8
+#landname 62 "Dimrill Dale"
+#terrain 62 8
+#landname 63 "North Anduin Vale"
+#terrain 63 8
+#landname 64 "South Ered Luin"
+#terrain 64 8
+#landname 65 "Tower Hills"
+#terrain 65 4194304
+#landname 66 "Eastern Rhun"
+#terrain 66 266
+#landname 67 "Vale of Celduin"
+#terrain 67 264
+#landname 68 "Eastern Mirkwood"
+#terrain 68 128
+#landname 69 "Northern Rhovanion"
+#terrain 69 0
+#terrain 70 4096
+#landname 71 "Narrows of the Forest"
+#terrain 71 128
+#landname 72 "Old Forest"
+#terrain 72 128
+#landname 73 "Western Rhun"
+#terrain 73 8
+#landname 74 "South Downs"
+#terrain 74 4194312
+#landname 75 "Gladden Fields"
+#terrain 75 32
+#landname 76 "Gray Havens"
+#terrain 76 0
+#landname 77 "Rhosgobel"
+#terrain 77 9
+#landname 78 "Old Forest Road"
+#terrain 78 129
+#landname 79 "Vale of Carnen"
+#terrain 79 8
+#landname 80 "Fords of Bruinen"
+#terrain 80 8
+#landname 81 "Northern Rhun"
+#terrain 81 0
+#landname 82 "The Shire"
+#terrain 82 8
+#landname 83 "High Pass"
+#terrain 83 17
+#landname 84 "Forlindon"
+#terrain 84 0
+#landname 85 "Old Ford"
+#terrain 85 8
+#landname 86 "Dale"
+#terrain 86 10
+#landname 87 "Buckland"
+#terrain 87 265
+#landname 88 "Goblin Gate"
+#terrain 88 4194304
+#landname 89 "Troll Shaws"
+#terrain 89 64
+#landname 90 "Woodland Realm"
+#terrain 90 128
+#landname 91 "Weather Hills"
+#terrain 91 4194304
+#landname 92 "Western Mirkwood"
+#terrain 92 128
+#landname 93 "Ered Luin"
+#terrain 93 4194304
+#landname 94 "Bree"
+#terrain 94 256
+#landname 95 "Rivendel"
+#terrain 95 4194304
+#landname 96 "Carrock"
+#terrain 96 9
+#landname 97 "North Downs"
+#terrain 97 4194305
+#landname 98 "Evendim"
+#terrain 98 24
+#landname 99 "Eagle's Eyrie"
+#terrain 99 4194304
+#landname 100 "Withered Heath"
+#terrain 100 64
+#landname 101 "Ettenmoors"
+#terrain 101 64
+#landname 102 "North Ered Luin"
+#terrain 102 4194304
+#landname 103 "Erebor"
+#terrain 103 4198400
+#landname 104 "Northern Mirkwood"
+#terrain 104 4194432
+#landname 105 "Iron Hills"
+#terrain 105 4194304
+#landname 106 "Arnor"
+#terrain 106 0
+#landname 107 "Mount Gundabad"
+#terrain 107 18
+#landname 108 "Mount Gram"
+#terrain 108 16
+#landname 109 "Angmar"
+#terrain 109 2
+
+-- Province neighbours
+#neighbour 1 5
+#neighbour 1 2
+#neighbour 1 3
+#neighbour 2 5
+#neighbour 2 6
+#neighbour 2 4
+#neighbour 2 7
+#neighbour 3 5
+#neighbour 3 8
+#neighbour 3 17
+#neighbour 3 13
+#neighbour 4 7
+#neighbour 5 8
+#neighbour 5 6
+#neighbour 5 12
+#neighbour 5 11
+#neighbour 6 12
+#neighbour 7 36
+#neighbourspec 7 36 4
+#neighbour 8 17
+#neighbour 8 11
+#neighbour 8 15
+#neighbour 9 21
+#neighbour 9 10
+#neighbour 10 21
+#neighbour 11 12
+#neighbour 11 24
+#neighbour 11 15
+#neighbour 11 20
+#neighbour 11 23
+#neighbour 11 30
+#neighbour 12 24
+#neighbour 12 19
+#neighbourspec 12 19 1
+#neighbour 13 16
+#neighbour 13 18
+#neighbour 13 17
+#neighbour 14 22
+#neighbour 14 16
+#neighbour 15 20
+#neighbour 16 18
+#neighbour 17 18
+#neighbour 19 24
+#neighbourspec 19 24 1
+#neighbour 19 21
+#neighbour 20 23
+#neighbour 21 26
+#neighbour 21 27
+#neighbour 22 34
+#neighbour 22 35
+#neighbour 22 29
+#neighbour 23 31
+#neighbour 23 40
+#neighbour 23 39
+#neighbour 23 30
+#neighbour 24 33
+#neighbour 24 30
+#neighbour 24 41
+#neighbour 25 31
+#neighbour 25 32
+#neighbour 26 33
+#neighbour 28 32
+#neighbour 28 29
+#neighbour 29 32
+#neighbour 29 38
+#neighbour 29 35
+#neighbour 29 43
+#neighbour 30 41
+#neighbour 30 39
+#neighbour 31 32
+#neighbour 31 40
+#neighbour 32 40
+#neighbour 32 43
+#neighbour 33 37
+#neighbour 33 44
+#neighbour 33 41
+#neighbour 34 48
+#neighbour 34 45
+#neighbour 34 35
+#neighbour 35 38
+#neighbour 35 45
+#neighbour 36 37
+#neighbour 36 42
+#neighbour 37 44
+#neighbour 37 47
+#neighbour 37 42
+#neighbour 39 40
+#neighbour 39 49
+#neighbour 39 41
+#neighbour 39 46
+#neighbour 40 50
+#neighbour 40 43
+#neighbour 40 46
+#neighbour 41 44
+#neighbour 41 49
+#neighbour 42 47
+#neighbour 42 66
+#neighbour 43 50
+#neighbour 44 47
+#neighbour 44 56
+#neighbour 44 49
+#neighbour 45 48
+#neighbour 45 52
+#neighbour 46 50
+#neighbour 46 55
+#neighbour 46 54
+#neighbour 46 49
+#neighbour 47 59
+#neighbour 47 56
+#neighbour 48 61
+#neighbour 48 51
+#neighbour 48 52
+#neighbour 49 56
+#neighbour 49 53
+#neighbour 49 54
+#neighbour 50 62
+#neighbour 50 57
+#neighbour 50 55
+#neighbour 51 64
+#neighbour 51 61
+#neighbour 52 61
+#neighbour 52 74
+#neighbour 52 60
+#neighbour 52 70
+#neighbour 53 56
+#neighbour 53 69
+#neighbour 53 54
+#neighbour 53 68
+#neighbour 54 63
+#neighbour 54 55
+#neighbour 54 71
+#neighbour 54 68
+#neighbour 55 62
+#neighbour 55 63
+#neighbour 56 67
+#neighbour 56 59
+#neighbour 56 69
+#neighbour 57 62
+#neighbour 58 76
+#neighbour 58 64
+#neighbour 59 73
+#neighbour 59 67
+#neighbour 60 74
+#neighbour 60 89
+#neighbour 60 80
+#neighbour 60 70
+#neighbour 61 64
+#neighbour 61 87
+#neighbour 61 72
+#neighbour 61 74
+#neighbour 62 70
+#neighbour 62 75
+#neighbour 62 63
+#neighbour 63 75
+#neighbour 63 77
+#neighbour 63 71
+#neighbour 64 65
+#neighbour 64 82
+#neighbour 64 72
+#neighbour 65 76
+#neighbour 65 93
+#neighbour 65 98
+#neighbour 65 82
+#neighbour 66 73
+#neighbour 66 81
+#neighbour 67 73
+#neighbour 67 79
+#neighbour 67 69
+#neighbour 68 69
+#neighbour 68 78
+#neighbour 68 71
+#neighbour 69 79
+#neighbour 69 86
+#neighbour 69 78
+#neighbour 71 78
+#neighbour 71 77
+#neighbour 72 82
+#neighbour 72 87
+#neighbour 73 81
+#neighbour 73 79
+#neighbour 74 87
+#neighbour 74 94
+#neighbour 74 91
+#neighbour 74 89
+#neighbour 75 85
+#neighbour 75 77
+#neighbour 76 84
+#neighbour 76 93
+#neighbour 77 85
+#neighbour 77 96
+#neighbour 77 78
+#neighbour 78 96
+#neighbour 78 92
+#neighbour 78 90
+#neighbour 78 86
+#neighbour 79 81
+#neighbour 79 105
+#neighbour 79 86
+#neighbour 80 89
+#neighbour 80 95
+#neighbour 80 83
+#neighbourspec 80 83 1
+#neighbour 81 105
+#neighbour 82 98
+#neighbour 82 87
+#neighbour 83 88
+#neighbourspec 83 88 1
+#neighbour 85 88
+#neighbour 85 99
+#neighbour 85 96
+#neighbour 86 105
+#neighbour 86 103
+#neighbour 86 100
+#neighbour 86 90
+#neighbour 87 98
+#neighbour 87 97
+#neighbour 87 94
+#neighbour 89 91
+#neighbour 89 95
+#neighbour 89 101
+#neighbour 90 100
+#neighbour 90 104
+#neighbour 90 92
+#neighbour 91 94
+#neighbour 91 101
+#neighbour 92 96
+#neighbour 92 104
+#neighbour 93 102
+#neighbour 93 98
+#neighbour 93 103
+#neighbourspec 93 103 4
+#neighbour 94 96
+#neighbourspec 94 96 4
+#neighbour 94 97
+#neighbour 96 99
+#neighbour 96 104
+#neighbour 97 98
+#neighbour 97 106
+#neighbour 97 101
+#neighbour 98 102
+#neighbour 98 106
+#neighbour 99 107
+#neighbour 100 103
+#neighbour 100 104
+#neighbour 101 106
+#neighbour 101 109
+#neighbour 101 108
+#neighbour 103 105
+#neighbour 106 109
+#neighbour 107 108
+#neighbour 108 109
+
+-- Special per province commands
+#specstart 33 1
+#god 33 2796
+#comname "Grond, The Wolf's Head"
+#additem "Wall Shaker"
+#additem "Pocket Ship"
+#mag_air 2
+#mag_earth 3
+#mag_death 5
+#mag_nature 3
+#specstart 39 38
+#god 39 244
+#comname "Saruman the White"
+#additem "The Oath Rod of Kurgi"
+#additem "Ardmon's Soul Trap"
+#mag_fire 1
+#mag_air 4
+#mag_water 1
+#mag_earth 1
+#mag_astral 5
+#mag_death 4
+#mag_blood 1
+#specstart 54 26
+#god 54 657
+#comname "Eye of Sauron"
+#dominionstr 54 8
+#scale_chaos 54 3
+#scale_lazy 54 -3
+#scale_death 54 -3
+#scale_unluck 54 3
+#scale_unmagic 54 -3
+#mag_earth 1
+#mag_astral 3
+#mag_death 4
+#mag_nature 2
+#specstart 40 20
+#god 40 "Great Sage"
+#comname "Gandalf the Grey"
+#mag_fire 1
+#mag_air 4
+#mag_water 1
+#mag_earth 1
+#mag_astral 5
+#mag_death 1
+#mag_nature 1
+#additem "Helmet of the Dawn"
+#additem "Robe of Invulnerability"
+#additem "The Sword of Aurgelmer"
+#additem "Gate Stone"
+#additem "Starfire Staff"
+#additem "Tome of High Power"
+#specstart 42 28
+#god 42 "Solar Eagle"
+#comname "Gwaihir, Lord of the Eagles"
+#mag_fire 1
+#mag_air 8
+#specstart 37 94
+#god 37 270
+#comname "Radagast the Brown"
+#mag_air 2
+#mag_water 2
+#mag_earth 2
+#mag_nature 8
+#additem "Robe of Calius the Druid"
+#additem "Treelord's Staff"
+#specstart 38 57
+#god 38 "Great Enchantress"
+#comname "Galadriel"
+#mag_water 2
+#mag_earth 2
+#mag_astral 7
+#mag_nature 4
+#additem "Stone Sphere"
+#additem "Miraculous Cure All Elixir"
+#specstart 44 103
+#god 44 "Oracle"
+#dominionstr 44 4
+#scale_chaos 44 -3
+#scale_lazy 44 -3
+#scale_death 44 -3
+#scale_unmagic 44 3
+#mag_water 4
+#mag_astral 3
+
+--Rohan
+#land 25
+#owner 42
+#poptype 53
+#defence 15
+
+#land 29
+#owner 42
+#poptype 53
+#defence 10
+
+#land 31
+#owner 42
+#poptype 53
+#defence 5
+
+#land 32
+#owner 42
+#poptype 53
+#defence 5
+
+#land 40
+#owner 42
+#poptype 34
+#defence 1
+
+#land 99
+#owner 42
+#poptype 37
+#defence 1
+#commander 1381
+#units 10 1381
+
+--Saruman
+#land 35
+#owner 39
+#poptype 32
+#defence 1
+
+#land 45
+#owner 39
+#poptype 32
+#defence 5
+
+#land 52
+#owner 39
+#poptype 32
+#defence 5
+
+--Gondor
+#land 8
+#owner 40
+#poptype 29
+#defence 15
+
+#land 13
+#owner 40
+#poptype 29
+#defence 25
+#fort 4
+
+#land 15
+#owner 40
+#poptype 29
+#defence 5
+
+#land 16
+#owner 40
+#poptype 29
+#defence 1
+
+#land 17
+#owner 40
+#poptype 29
+#defence 5
+
+#land 18
+#owner 40
+#poptype 29
+#defence 1
+
+#land 23
+#owner 40
+#poptype 39
+#defence 1
+
+--Northmen
+#land 77
+#owner 37
+#poptype 30
+#defence 1
+
+#land 78
+#owner 37
+#poptype 30
+#defence 1
+
+#land 82
+#owner 37
+#poptype 76
+#defence 15
+
+#land 86
+#owner 37
+#poptype 30
+#defence 15
+
+#land 87
+#owner 37
+#poptype 30
+#defence 1
+
+#setland 94
+#fort 1
+
+#land 97
+#owner 37
+#poptype 30
+#defence 1
+
+#land 96
+#owner 37
+#poptype 30
+#defence 5
+
+--Elves
+#land 76
+#owner 38
+#poptype 30
+#defence 25
+#fort 4
+
+#land 90
+#owner 38
+#poptype 30
+#defence 25
+#fort 4
+
+#land 95
+#owner 37
+#commander 548
+#comname "Frodo Baggins"
+#additem "Shademail Haubergeon"
+#additem "Faithful"
+#additem "Ring of Dwarven Gold"
+#commander 483
+#comname "Samwise Gamgee"
+#additem "Main Gauche of Parrying"
+#additem "Bell of Cleansing"
+#owner 40
+#commander 559
+#comname "Strider"
+#additem "Champion's Cuirass"
+#additem "Champion's Helmet"
+#additem "Shortsword"
+#commander 35
+#comname "Boromir"
+#additem "Horn of Valor"
+for Gandalf
+#additem "Wound Fend Amulet"
+#owner 44
+#commander 323
+#comname "Gimli"
+#clearmagic
+#additem "Armor of Knights"
+#additem "Carmine Cleaver"
+#additem "Cat Charm"
+#additem "Girdle of Might"
+#owner 42
+#commander 483
+#comname "Meriadoc Brandybuck"
+#additem "Main Gauche of Parrying"
+#commander 483
+#comname "Peregrin Took"
+#additem "Main Gauche of Parrying"
+#owner 38
+#commander 347
+#comname "Legolas"
+#clearmagic
+#additem "Bow of War"
+#additem "Chain Mail of Displacement"
+#additem "Eye of Aiming"
+#additem "Cat Charm"
+#poptype 30
+#defence 25
+#fort 4
+
+--Dwarves
+#land 93
+#owner 44
+#poptype 50
+#defence 5
+
+#land 102
+#owner 44
+#poptype 50
+#defence 5
+
+#land 105
+#owner 44
+#poptype 50
+#defence 5
+
+--Easterling/Southerling
+#land 2
+#owner 33
+#poptype 68
+#defence 5
+
+#land 4
+#owner 33
+#poptype 68
+#defence 15
+
+#land 7
+#owner 33
+#poptype 68
+#defence 1
+
+#land 36
+#owner 33
+#poptype 68
+#defence 1
+
+#land 42
+#owner 33
+#poptype 68
+#defence 5
+
+#land 66
+#owner 33
+#poptype 68
+#defence 1
+
+#land 73
+#owner 33
+#poptype 68
+#defence 5
+
+#land 81
+#owner 33
+#poptype 68
+#defence 1
+
+--Sauron
+#land 9
+#owner 54
+#poptype 86
+#defence 5
+
+#land 10
+#owner 54
+#poptype 86
+#defence 1
+
+#land 19
+#owner 54
+#poptype 86
+#fort 5
+#defence 25
+#commander 182
+#comname "Mouth of Sauron"
+
+#land 21
+#owner 54
+#poptype 86
+#defence 1
+
+#land 27
+#owner 54
+#poptype 86
+#fort 5
+#defence 25
+
+#land 53
+#owner 54
+#poptype 86
+#defence 1
+
+#land 54
+#owner 54
+#poptype 86
+#fort 5
+#defence 25
+#commander 181
+#comname "Witch-king of Angmar"
+#additem "Jade Armor"
+#additem "Sun Slayer"
+#additem "The Jade Mask"
+#additem "Winged Shoes"
+#additem "The Ankh"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Khamûl, Shadow of the East"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Dwar of Waw"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Ji Indûr Dawndeath"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Akhôrahil"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Hoarmûrath of Dír"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Adûnaphel the Quiet"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Ren the Unclean"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander 181
+#comname "Ûvatha the Horseman"
+#additem "Shademail Haubergeon"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+
+
+#land 70
+#owner 54
+#poptype 86
+#fort 5
+#defence 25
+#commander 818
+#comname "Durin's Bane"
+#additem "Unquenched Sword"
+#additem "Demon Whip"
+#additem "Medallion of Vengeance"
+#additem "Horned Helmet"
+#additem "Brimstone Boots"
+#additem "Burning Pearl"
+#additem "Red Dragon Scale Mail"
+
+#land 107
+#owner 54
+#poptype 86
+#fort 5
+#defence 25
+
+#land 108
+#owner 54
+#poptype 86
+#defence 1
+
+#land 109
+#owner 54
+#poptype 86
+#defence 15
+
+#land 43
+#commander 931
+#comname "Treebeard"
+#additem "Ring of Regeneration"
+#units 10 931
+#poptype 37
+
+#land 89
+#poptype 29
+#commander 518
+#units 6 518
+--
