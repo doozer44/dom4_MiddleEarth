@@ -9,7 +9,7 @@
 #dom2title A map based on War of the Rings map.
 #imagefile MiddleEarth.tga
 #domversion 350
-#description "Middle Earth"
+#description "Middle Earth v4"
 
 #scenerio
 #allowedplayer 33
@@ -17,7 +17,7 @@ allowedplayer 43
 #allowedplayer 39
 allowedplayer 45
 allowedplayer 34
-#allowedplayer 54
+#allowedplayer 101
 #allowedplayer 40
 #allowedplayer 42
 allowedplayer 50
@@ -520,19 +520,15 @@ allowedplayer 50
 #mag_astral 5
 #mag_death 4
 #mag_blood 1
-#specstart 54 26
-#god 54 657
-#comname "Eye of Sauron"
-#dominionstr 54 8
-#scale_chaos 54 3
-#scale_lazy 54 -3
-#scale_death 54 -3
-#scale_unluck 54 3
-#scale_unmagic 54 -3
-#mag_earth 1
-#mag_astral 3
-#mag_death 4
-#mag_nature 2
+#specstart 101 27
+#god 101 "All-Seeing Eye"
+#comname "The Eye of Sauron"
+#dominionstr 101 8
+#scale_chaos 101 2
+#scale_lazy 101 -3
+#scale_death 101 2
+#mag_astral 9
+#additem "Palantir"
 #specstart 40 20
 #god 40 "Great Sage"
 #comname "Gandalf the Grey"
@@ -828,17 +824,17 @@ for Gandalf
 
 --Sauron
 #land 9
-#owner 54
+#owner 101
 #poptype 86
 #defence 5
 
 #land 10
-#owner 54
+#owner 101
 #poptype 86
 #defence 1
 
 #land 19
-#owner 54
+#owner 101
 #poptype 86
 #fort 5
 #defence 25
@@ -846,81 +842,50 @@ for Gandalf
 #comname "Mouth of Sauron"
 
 #land 21
-#owner 54
+#owner 101
 #poptype 86
 #defence 1
 
-#land 27
-#owner 54
+#land 26
+#owner 101
 #poptype 86
 #fort 5
 #defence 25
 
 #land 53
-#owner 54
+#owner 101
 #poptype 86
 #defence 1
 
 #land 54
-#owner 54
+#owner 101
 #poptype 86
 #fort 5
 #defence 25
-#commander 181
-#comname "Witch-king of Angmar"
-#additem "Jade Armor"
-#additem "Sun Slayer"
-#additem "The Jade Mask"
-#additem "Winged Shoes"
-#additem "The Ankh"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Khamûl, Shadow of the East"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
+#commander "Lord of the Nazgul"
+#commander "Nazgul"
+#comname "Khamul, Shadow of the East"
+#commander "Nazgul"
 #comname "Dwar of Waw"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Ji Indûr Dawndeath"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Akhôrahil"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Hoarmûrath of Dír"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Adûnaphel the Quiet"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
+#commander "Nazgul"
+#comname "Ji Indur Dawndeath"
+#commander "Nazgul"
+#comname "Akhorahil"
+#commander "Nazgul"
+#comname "Hoarmurath of Dír"
+#commander "Nazgul"
+#comname "Adunaphel the Quiet"
+#commander "Nazgul"
 #comname "Ren the Unclean"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-#commander 181
-#comname "Ûvatha the Horseman"
-#additem "Shademail Haubergeon"
-#additem "Winged Shoes"
-#additem "Amulet of Antimagic"
-
+#commander "Nazgul"
+#comname "Uvatha the Horseman"
 
 #land 70
-#owner 54
+#owner 101
 #poptype 86
 #fort 5
-#defence 25
+#defence 0
+--new monster eventually or he can be summoned away with blood spell
 #commander 818
 #comname "Durin's Bane"
 #additem "Unquenched Sword"
@@ -932,18 +897,18 @@ for Gandalf
 #additem "Red Dragon Scale Mail"
 
 #land 107
-#owner 54
+#owner 101
 #poptype 86
 #fort 5
 #defence 25
 
 #land 108
-#owner 54
+#owner 101
 #poptype 86
 #defence 1
 
 #land 109
-#owner 54
+#owner 101
 #poptype 86
 #defence 15
 
