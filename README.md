@@ -1,6 +1,17 @@
 # dom4_lotr
 Lord of the Rings mod pack for Dominions4
 
+Instructions:
+copy to "maps" folder
+  MiddleEarth.tga
+  MiddleEarth.map
+copy to "mods" folder
+  mordor.dm
+  flagmagianMA.tga
+
+
+Development status:
+
 done:
 1) Map connections and terrain
 
